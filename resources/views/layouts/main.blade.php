@@ -35,8 +35,7 @@
     >
         <div class="container p-3">
             <a class="navbar-brand d-flex align-items-center" href="/dashboard">
-                <img src="/img/briefcase.png" alt="" class="mr-3" />
-                <span>Workfrom</span>
+                <img src="/img/logo.png"/>
             </a>
             <button
                 class="navbar-toggler ml-auto"
@@ -66,18 +65,15 @@
         @yield('')
     </div>
 
-    <footer class="">
+    <footer>
     <div class="row container-fluid">
         <div class="col-4 ml-5">
             <div class="d-flex">
                 <img
                     class="mb-4"
-                    src="/img/briefcase (1).png"
+                    src="/img/logo.png"
                     alt=""
-                    width="40"
-                    height="45"
                 />
-                <h3 class="ml-3 mt-1">workfrom</h3>
             </div>
             <p class="text-left text-muted">
                 Komp. Ruko Centre Point Medan Jalan Timor Blok G No.

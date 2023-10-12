@@ -33,7 +33,7 @@ Route::get('/pemesanan', [pemesananController::class, 'index']);
 
 Route::get('/maps', [mapsController::class, 'index']);
 
-Route::get('/login', [loginController::class, 'index'])->middleware('guest');
+Route::get('/login', [loginController::class, 'index']); //->middleware('guest');
 Route::post('/login', [loginController::class, 'authenticate']);
 
 Route::get('/register', [registerController::class, 'index']);
